@@ -1,39 +1,28 @@
 # Security Policy
 
-## Supported Versions
+## Overview
 
-We are committed to maintaining the security of our software. However, our resources are limited to providing security patches only for the latest combination of minor and major versions of our software.
+This repository contains code that is provided as a static, one-off release. Examples of such releases include code accompanying a publication, standalone code releases, or code provided alongside other products. As such, it is provided "as-is" and is not actively maintained. While we strive to follow best practices in security, we do not guarantee that the code is free from vulnerabilities. Users are encouraged to review and assess the code for their own use cases.
+
+## Security Updates
+
+We do not commit to regular security updates or patches for this repository. The code and its dependencies may not be regularly scanned for vulnerabilities. Users should be aware of this and take appropriate precautions when using the code in their own environments.
 
 ## Reporting a Vulnerability
 
-We take the security of our software seriously. If you believe you have found a security vulnerability in our software, we encourage you to report it to us as soon as possible. Please follow these steps:
+If you discover a security vulnerability, we encourage you to report it to us. While we may not be able to address all reported issues due to the nature of this repository, we appreciate your efforts to help improve the security of the code.
 
-1. **Do Not Publish the Vulnerability**: Publicly disclosing a vulnerability can put the entire community at risk. We ask that you do not share or publicize an unresolved vulnerability to/with third parties.
+To report a vulnerability, please email us at [taejin.park@bis.org](mailto:taejin.park@bis.org) with the details of the issue. Include as much information as possible to help us understand the nature and scope of the vulnerability.
 
-2. **Report Confidentially**: Please email us at [taejin.park@bis.org](mailto:taejin.park@bis.org) with the details of the vulnerability. The report should include:
+## Disclaimer
 
-   - A description of the vulnerability and its potential impact.
-   - Steps to reproduce or proof-of-concept (PoC).
-   - Any relevant screenshots or output.
+This code is provided for educational and research purposes only. We make no warranties or representations regarding the security or suitability of the code for any particular purpose. Users assume all risks associated with the use of this code. Please refer to the LICENSE file for additional information.
 
-3. **Response and Collaboration**: Our security team will review your report and may contact you for further information. Once the vulnerability is confirmed, we will work with you to assess and understand its impact and develop a mitigation or fix.
+## Suggestions for Users
 
-4. **Acknowledgment**: After the vulnerability has been resolved, we will acknowledge your contribution in our release notes, unless you prefer to remain anonymous.
-
-## Security Patch Release Process
-
-When a vulnerability is discovered, either through internal processes or via an external report, the following process will be followed:
-
-1. **Vulnerability Assessment**: Our security team will assess the severity and impact of the vulnerability.
-
-2. **Patch Development**: A patch will be developed for the latest supported version.
-
-3. **Release and Notification**: Once the patch is ready, it will be released as part of a new version. We will notify users of the need to update through our communication channels (e.g., repository release notes).
-
-4. **Backporting**: In exceptional cases, where a vulnerability has a high impact, we may consider backporting the patch to earlier versions. This decision will be made on a case-by-case basis.
-
-Thank you for helping us keep our software secure.
-
+- **Review the Code**: Before using the code, review it thoroughly to understand its functionality and potential security implications.
+- **Use in a Controlled Environment**: If possible, use the code in a controlled environment to minimize potential risks.
+- **Monitor Dependencies**: If you decide to use the code, consider monitoring and updating third-party dependencies as needed to address any known vulnerabilities.
 ---
 
 This policy is subject to change at the discretion of the project maintainers.
